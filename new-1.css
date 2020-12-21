@@ -1,0 +1,28 @@
+body {
+    background: chartreuse;
+  }
+  p {
+    color: blue;
+  }
+  h1 {
+    font-weight: lighter;
+    color: dodgerblue;
+    font-family: cursive;
+    font-size: 45px;
+  }
+  h3 {
+    font-weight: lighter;
+    color: red;
+    font-family: cursive;
+    font-size: 16px;
+  }
+  img {float: left;
+    width: 350px;
+    margin: 10px;
+    border-color: chartreuse;
+    border-width: 4px;
+    border-style: double;
+    border-radius: 85px;
+    
+    
+  }
