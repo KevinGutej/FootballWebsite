@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+p {
+  color: blueviolet;
+}
+
+h1 {
+  font-weight: solid;
+  color: dodgerblue;
+  font-family: cursive;
+  font-size: 45px;
+  font-family: 'Langar', cursive;
+}
+
+h3 {
+  font-weight: lighter;
+  color: red;
+  font-family: cursive;
+  font-size: 16px;
+}
+
+.klasa__obrazek {
+  width: 250px;
+  margin: 10px;
+  border-color: Red;
+  border-width: 4px;
+  border-style: double;
+  border-radius: 85px;
+}
+
+.klasa1 {
+  font-size: 72px;
+}
+
+#id1, #id2 {
+  color: black;
+}
+
+#id2 .klasa2 {
+  border: 2px solid black;
+}
+
+/* MOJE */
+.header {
+  background-color: blue;
+  height: 100px;
+  padding: 20px;
+  width: 100%;
+}
+
+.header nav {
+  background-color: bisque;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 100%;
+}
+
+.header nav a {
+  color: #002fff;
+  text-decoration: none;
+  background-color: turquoise;
+  margin: 3px;
+  padding: 10px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.header nav a:first-of-type {
+  background-color: yellow;
+}
+
+.header nav a:hover {
+  background-color: yellow;
+  color: black;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+p {
+  font-style: italic;
+  text-decoration: underline;
+  color: blue;
+}
+
+.main {
+  background-color: blanchedalmond;
+  width: 100%;
+}
+
+.main .row1 {
+  background-color: aqua;
+  width: 80%;
+  margin: 0 auto 0 auto;
+  padding: 2%;
+}
+
+.main .row1 .box-article {
+  background-color: yellow;
+  width: 48%;
+}
+
+.main .row1 .box-article .box-image img {
+  display: block;
+  width: 100%;
+}
+
+/* .header {
+    background-color: white;
+    height: 100px;
+    padding: 10px;
+    margin-top: 0;
+  }
+  .header nav {
+    background-color: aquamarine;
+    height: 100%;
+    display: flex;
+    
+  }
+  .header nav a {
+    padding: 20px;
+    margin: 5px;
+    background-color: bisque;
+    text-decoration: none;
+    color:green;
+  }
+  .header nav a:hover {
+    background-color: blueviolet;
+    transition:2s;
+  }
+  .header nav a:first-of-type {
+    flex-grow: 2;
+  }
+  .main {
+    background-color: aqua;
+    height: 100px;
+  }
+  .footer {
+    background-color: blue;
+    height:100px;
+  } */
+/*# sourceMappingURL=main.css.map */
