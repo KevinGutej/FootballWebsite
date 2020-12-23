@@ -22,9 +22,9 @@ body {
   .klasa__obrazek {
     width: 250px;
     margin: 10px;
-    border-color: Red;
-    border-width: 4px;
-    border-style: double;
+    border-color: blue;
+    border-width: 8px;
+    border-style: dotted;
     border-radius: 85px;
   }
   .klasa1 {
@@ -43,54 +43,55 @@ body {
   
   /* MOJE */
 .header {
-background-color: blue;
+background-color: orange;
 height: 100px;
 padding: 20px;
 width: 100%;
 nav {
-background-color: bisque;
+background-color: red;
 display: flex;
 flex-direction: row;
 height: 100%;
 a {
-color: rgb(0, 47, 255);
+color:red;
 text-decoration: none;
-background-color: turquoise;
+background-color: orange;
 margin:3px;
 padding: 10px;
 flex-grow: 1;
 transition:1s;
 }
 a:first-of-type{
-background-color: yellow;
+background-color: blue;
 }
 a:hover {
-background-color: yellow;
+background-color:red;
 color:black;
 transition:3s;
 }
 }
 }
 
+
 p {
-font-style:italic;
-text-decoration: underline;
-color: blue;
+font-style: arial;
+text-decoration:dotted;
+color: red;
 }
 
 
 
 .main {
-  background-color: blanchedalmond;
-  width: 100%;
+  background-color: brown ;
+  widows: 100%;
   //width: 100vw;
   .row1{
-    background-color: aqua;
+    background-color: blanchedalmond;
     width:80%;//80% main
     margin: 0 auto 0 auto;
     padding: 2%;
     .box-article{
-      background-color: yellow;
+      background-color: blue;
       width: 48%;
       .box-image{
         

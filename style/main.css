@@ -27,9 +27,9 @@ h3 {
 .klasa__obrazek {
   width: 250px;
   margin: 10px;
-  border-color: Red;
-  border-width: 4px;
-  border-style: double;
+  border-color: blue;
+  border-width: 8px;
+  border-style: dotted;
   border-radius: 85px;
 }
 
@@ -47,14 +47,14 @@ h3 {
 
 /* MOJE */
 .header {
-  background-color: blue;
+  background-color: orange;
   height: 100px;
   padding: 20px;
   width: 100%;
 }
 
 .header nav {
-  background-color: bisque;
+  background-color: red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,9 +66,9 @@ h3 {
 }
 
 .header nav a {
-  color: #002fff;
+  color: red;
   text-decoration: none;
-  background-color: turquoise;
+  background-color: orange;
   margin: 3px;
   padding: 10px;
   -webkit-box-flex: 1;
@@ -79,36 +79,37 @@ h3 {
 }
 
 .header nav a:first-of-type {
-  background-color: yellow;
+  background-color: blue;
 }
 
 .header nav a:hover {
-  background-color: yellow;
+  background-color: red;
   color: black;
   -webkit-transition: 3s;
   transition: 3s;
 }
 
 p {
-  font-style: italic;
-  text-decoration: underline;
-  color: blue;
+  font-style: arial;
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+  color: red;
 }
 
 .main {
-  background-color: blanchedalmond;
-  width: 100%;
+  background-color: brown;
+  widows: 100%;
 }
 
 .main .row1 {
-  background-color: aqua;
+  background-color: blanchedalmond;
   width: 80%;
   margin: 0 auto 0 auto;
   padding: 2%;
 }
 
 .main .row1 .box-article {
-  background-color: yellow;
+  background-color: blue;
   width: 48%;
 }
 
