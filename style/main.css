@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -30,14 +31,18 @@ h3 {
 
 /* MOJE */
 .header {
-  background-color: orange;
+  background: #d2ff52;
+  background: -webkit-gradient(left top, right top, color-stop(0%, #d2ff52), color-stop(48%, #66ba17), color-stop(100%, #91e842));
+  background: -webkit-gradient(linear, left top, right top, from(#d2ff52), color-stop(48%, #66ba17), to(#91e842));
+  background: linear-gradient(to right, #d2ff52 0%, #66ba17 48%, #91e842 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842', GradientType=1 );
   height: 100px;
   padding: 20px;
   width: 100%;
 }
 
 .header nav {
-  background-color: red;
+  background-color: rgba(102, 186, 23, 0);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49,9 +54,9 @@ h3 {
 }
 
 .header nav a {
-  color: red;
+  color: black;
   text-decoration: none;
-  background-color: orange;
+  background-color: white;
   margin: 3px;
   padding: 10px;
   -webkit-box-flex: 1;
@@ -59,24 +64,27 @@ h3 {
           flex-grow: 1;
   -webkit-transition: 1s;
   transition: 1s;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-weight: 600;
+  font-family: 'Oswald', sans-serif;
 }
 
 .header nav :first-of-type {
-  background-color: orange;
+  background-color: white;
 }
 
 .header nav a:hover {
-  background-color: red;
+  background-color: yellow;
   color: black;
   -webkit-transition: 3s;
   transition: 3s;
 }
 
 p {
-  font-style: arial;
-  -webkit-text-decoration: dotted;
-          text-decoration: dotted;
-  color: White;
+  font-style: italic;
+  color: yellow;
 }
 
 h2 {
@@ -85,12 +93,14 @@ h2 {
 }
 
 .main {
-  background-color: brown;
+  background-image: url("../image/grass.jpg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
 }
 
 .main .row1 {
-  background-color: blanchedalmond;
+  background-color: white;
   width: 80%;
   margin: 0 auto 0 auto;
   padding: 2%;
@@ -98,11 +108,14 @@ h2 {
 }
 
 .main .row1 .box-article {
-  background-color: blue;
-  width: 49.5%;
+  background-color: green;
   display: -ms-inline-grid;
   display: inline-grid;
   height: 100%;
+  padding: 0;
+  margin: 1%;
+  max-width: 48%;
+  border-radius: 35px;
 }
 
 .main .row1 .box-article .box-image {
@@ -144,7 +157,11 @@ h2 {
 }
 
 .footer {
-  background-color: #15ec6f;
+  background: #d2ff52;
+  background: -webkit-gradient(left top, right top, color-stop(0%, #d2ff52), color-stop(48%, #66ba17), color-stop(100%, #91e842));
+  background: -webkit-gradient(linear, left top, right top, from(#d2ff52), color-stop(48%, #66ba17), to(#91e842));
+  background: linear-gradient(to right, #d2ff52 0%, #66ba17 48%, #91e842 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842', GradientType=1 );
   padding: 20px;
 }
 
