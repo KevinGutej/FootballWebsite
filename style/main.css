@@ -53,9 +53,7 @@ h3 {
   height: 100%;
 }
 
-.header nav a {
-  color: black;
-  text-decoration: none;
+.header nav a.menu-item {
   background-color: white;
   margin: 3px;
   padding: 10px;
@@ -67,17 +65,49 @@ h3 {
   text-align: center;
   border-radius: 5px;
   border: 1px solid black;
-  font-weight: 600;
-  font-family: 'Oswald', sans-serif;
 }
 
-.header nav :first-of-type {
-  background-color: white;
-}
-
-.header nav a:hover {
+.header a.menu-item:hover {
   background-color: yellow;
   color: black;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.header a {
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.header ul.menu {
+  list-style: none;
+  background-color: white;
+  position: absolute;
+  right: 24px;
+  top: 77px;
+  z-index: 1;
+  border: 1px solid black;
+}
+
+.header ul.menu li {
+  width: 297px;
+  padding: 10px;
+  text-align: center;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.header ul.menu li a {
+  border: 0;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+}
+
+.header ul.menu li:hover {
+  background-color: yellow;
   -webkit-transition: 3s;
   transition: 3s;
 }
