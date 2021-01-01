@@ -89,6 +89,7 @@ h3 {
   top: 77px;
   z-index: 1;
   border: 1px solid black;
+  display: none;
 }
 
 .header ul.menu li {
@@ -212,5 +213,22 @@ h2 {
   color: red;
   -webkit-transition: 3s;
   transition: 3s;
+}
+
+#scroll {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  font-size: 60px;
+  color: black;
+  right: 30px;
+  bottom: 160px;
+  background-color: white;
+  border-radius: 7px;
+  text-align: center;
+}
+
+#scroll i {
+  display: block;
 }
 /*# sourceMappingURL=main.css.map */

@@ -2,8 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />    
@@ -16,17 +17,17 @@
         <nav>
             <a class="menu-item" href="Kante.html">Home Page</a>
             <a class="menu-item" href="Kante.html">Fun Information</a>
-            <a class="menu-item" href="./About/aboutus.html">About us  
+            <a id="click" class="menu-item" href="">About us  
             </a>
-            <ul class="menu">
-                <li>
+            <ul id="open-menu" class="menu">
+                <li class="item">
                     <a href="https://www.underarmour.co.uk/en-gb/mens/sports/football/black/?cid=PS|UK|NB|bing|all|all|all|all|all|uk+dsa+men+women|all|1257841566457518&gclid=60d59e4e4af51d43f996c1a29ea9dc9b&gclsrc=3p.ds&msclkid=60d59e4e4af51d43f996c1a29ea9dc9b"target="_blank">Home Page</a>
                 </li>
-                <li>
+                <li class="item">
                     <a href="https://www.footballwebpages.co.uk/"target="_blank">Fun Information</a>
                 </li>
-                <li>
-                    <a href="./About/aboutus.html"target="_blank">About Us</a>
+                <li class="item">
+                    <a href="./About/aboutus.html" target="_blank">About Us</a>
                 </li>
             </ul>
         </nav>
@@ -93,22 +94,18 @@ However, the highest attendance ever recorded was at the Maracanã Stadium in 19
 
     <footer class="footer">
         <div class="box-footer">
-            <a href="www.facebook.com">
+            <a href="www.facebook.com"></a>
             <i class="fa fa-futbol-o" aria-hidden="true"></i>
             <i class="fa fa-facebook-official" aria-hidden="true"></i>
             <i class="fa fa-instagram" aria-hidden="true"></i>
 
         </div>
     </footer>
-    <!-- 
-    <main class="main">
-        MAIN
-    </main>
-    <footer class="footer">
-        FOOTER
-    </footer> -->
-
-    
+    <div id="scroll">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </div>
+    <script src="./script/script.js">
+    </script>
 </body>
 
 </html>

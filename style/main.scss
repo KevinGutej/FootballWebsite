@@ -78,6 +78,7 @@ a {
         top: 77px;
         z-index: 1;
         border:1px solid black;
+        display: none;
         li {
           width: 297px;
           padding: 10px;
@@ -192,4 +193,21 @@ h2 {
     }
 }
   
+
+#scroll {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  font-size: 60px;
+  color: black;
+  //top: 0;
+  right: 30px;
+  bottom: 160px;
+  background-color: white;
+  border-radius: 7px;
+  text-align: center;
+  i {
+    display: block;
+  }
+}
   
