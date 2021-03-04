@@ -2,29 +2,36 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-<link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />    
-<link rel="stylesheet" href="./style/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" />
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha512-jCaU0Dp3IbMDlZ6f6dSEQSnOrSsugG6F6YigRWnagi7HoOLshF1kwxLT4+xCZRgQsTNqpUKj6WmWOxsu9l3URA==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/main.css">
 
     <title>Document</title>
 </head>
-<body>
+
+<body id="body">
     <header class="header">
         <nav>
             <a class="menu-item" href="Kante.html">Home Page</a>
             <a class="menu-item" href="Kante.html">Fun Information</a>
-            <a id="click" class="menu-item" href="">About us  
-            </a>
+            <a id="click" class="menu-item" href="">About us</a>
             <ul id="open-menu" class="menu">
                 <li class="item">
-                    <a href="https://www.underarmour.co.uk/en-gb/mens/sports/football/black/?cid=PS|UK|NB|bing|all|all|all|all|all|uk+dsa+men+women|all|1257841566457518&gclid=60d59e4e4af51d43f996c1a29ea9dc9b&gclsrc=3p.ds&msclkid=60d59e4e4af51d43f996c1a29ea9dc9b"target="_blank">Home Page</a>
+                    <a href="https://www.underarmour.co.uk/en-gb/mens/sports/football/black/?cid=PS|UK|NB|bing|all|all|all|all|all|uk+dsa+men+women|all|1257841566457518&gclid=60d59e4e4af51d43f996c1a29ea9dc9b&gclsrc=3p.ds&msclkid=60d59e4e4af51d43f996c1a29ea9dc9b"
+                        target="_blank">Home Page</a>
                 </li>
                 <li class="item">
-                    <a href="https://www.footballwebpages.co.uk/"target="_blank">Fun Information</a>
+                    <a href="https://www.footballwebpages.co.uk/" target="_blank">Fun Information</a>
                 </li>
                 <li class="item">
                     <a href="./About/aboutus.html" target="_blank">About Us</a>
@@ -32,19 +39,78 @@
             </ul>
         </nav>
     </header>
+    <div class="slider">
+        <div id="myId" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="./image/footballers.jpg" alt="logo">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Chelsea Logo</h5>
+                    <p>During every game, Football players run an average of 9.65 km.</p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./image/salah.jpg" alt="Football">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Football</h5>
+                    <p>Football was invented in China nearly 476 B.C.<p>
+              </div>
+            </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./image/Mbappe.jfif" alt="Footballer">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Footballer</h5>
+                    <p>Football is the most watched and most played sport on earth</p>
+                  </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./image/Footballer1.jfif" alt="Footballer">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Footballer</h5>
+                    <p>The first game of Basketball was played with a soccer ball.</p>
+                  </div>
+            </div>
+            <a class="carousel-control-prev" href="#myId" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#myId" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+              <ol class="carousel-indicators">
+                <li class="circle"data-target="#myId" data-slide-to="0" class="active">
+                    <i class="fa fa-user-circle-o"></i>
+                </li>
+                <li class="circle"data-target="#myId" data-slide-to="1">
+                    <i class="fa fa-github"></i>
+                </li>
+                <li class="circle"data-target="#myId" data-slide-to="2">
+                    <i class="fa fa-telegram" aria-hidden="true"></i>
+                </li>
+                <li class="circle"data-target="#myId" data-slide-to="3">
+                    <i class="fa fa-window-close" aria-hidden="true"></i>
+                </li>
+
+              </ol>
+            </div>
+        </div>
+    </div>
+
     <main class="main">
         <section class="row row1 ">
             <div class="box-article col-12 col-md-6">
                 <div class="box-image">
                     <img class="klasa__obrazek second-image " src="./image/Football.jpg.jpg" alt="Football">
                 </div>
-                
-                <p class="description">
-                    I love chelsea because it is the best soccer team ever and I really like them becuase they wear the blue
-                        kit(Thats mine favourite color).I have been supporting this team for a while now and I hope the team stays on track and gets alot of wins.
-                        This team has alot of amazing players and has a great hystory.They have won alot of the matches but also lost some.
-                    
 
+                <p class="description">
+                    I love chelsea because it is the best soccer team ever and I really like them becuase they wear the
+                    blue
+                    kit(Thats mine favourite color).I have been supporting this team for a while now and I hope the team
+                    stays on track and gets alot of wins.
+                    This team has alot of amazing players and has a great hystory.They have won alot of the matches but
+                    also lost some.
                 </p>
             </div>
             <div class="box-article col-12 col-md-6">
@@ -52,52 +118,100 @@
                     <img class="klasa__obrazek second-image" src="./image/Kante.jpg" alt="Football">
                 </div>
                 <p class="description">
-                    Kante is from France .Kante play center midfeild.It's a position where you need alot of stamina to run around
-                    the pitch.I play in this position in my school team.He has worked as a trash picker.Kante grew up in a small flat in Rueil Malmaison, a small and densely populated suburban area to Paris.
-                    He decided to be a footballer at the age of 8 After the France 98 world cup, Kante saw a different France, A France of opportunities.</p>
+                    Kante is from France .Kante play center midfeild.It's a position where you need alot of stamina to
+                    run around
+                    the pitch.I play in this position in my school team.He has worked as a trash picker.Kante grew up in
+                    a small flat in Rueil Malmaison, a small and densely populated suburban area to Paris.
+                    He decided to be a footballer at the age of 8 After the France 98 world cup, Kante saw a different
+                    France, A France of opportunities.
                 </p>
             </div>
-            
         </section>
-
         <section class="row row1">
             <div class="box-article col-12 col-md-6">
                 <div class="box-image">
                     <img class="klasa__obrazek second-image " src="./image/stadium.jpg" alt="Football">
-                    
                 </div>
-                
-                <p class="description">
-                    A player can be given a yellow card or red card by the referee if they break any of the rules in the game. This can, for example, be a rough tackle, or saying something inappropriate to the referee.
-If a player is given two yellow cards in the same game, they will get a red card and be sent off from the pitch. 
-However, the highest attendance ever recorded was at the Maracanã Stadium in 1950 where 199,854 people saw Uruguay vs Brazil. The current attendance is set to 78,838. 
-                    
-
-                </p>
+                <p class="description">A player can be given a yellow card or red card by the referee if they break any
+                    of the rules in the game. This can, for example, be a rough tackle, or saying something
+                    inappropriate to the referee.
+                    If a player is given two yellow cards in the same game, they will get a red card and be sent off
+                    from the pitch.<br>However, the highest attendance ever recorded was at the Maracanã Stadium in 1950
+                    where 199,854 people saw Uruguay vs Brazil. The current attendance is set to 78,838. </p>
             </div>
+
+
             <div class="box-article col-12 col-md-6">
                 <div class="box-image">
                     <img class="klasa__obrazek second-image" src="./image/screenshot.jpg" alt="Football">
                 </div>
+                <p class="box-description"></p>
                 <p class="description">
-                    A professional game is always 90 minutes long divided into two halves of 45 minutes + stoppage time. The stoppage time is usually between 1 to 5 minutes depending on injuries and breaks in each half of the game.
-                    Brazil has won the FIFA World Cup 5 times, which makes it the most successful national team of all times. 
-                    When an American is talking about football, they’re usually referring to American Football, which is one of the most popular sports in the United States.
-                    Some other variations of the sport include futsal, eFootball, and beach football.  </p>
-                </p>
+                    A professional game is always 90 minutes long divided into two halves of 45 minutes + stoppage time.
+                    The stoppage time is usually between 1 to 5 minutes depending on injuries and breaks in each half of
+                    the game.Brazil has won the FIFA World Cup 5 times, which makes it the most successful national team
+                    of all times.
+                    When an American is talking about football, they’re usually referring to American Football, which is
+                    one of the most popular sports in the United States.
+                    Some other variations of the sport include futsal, eFootball, and beach football.</p>
             </div>
-            
-            
+        </section>
+
+        <section class="container forms">
+            <form action="">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Please enter the following:</label>
+                    <input class="form-control my-control" type="email" id="exampleInputEmail1"
+                        placeholder="YourEmail@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword">Password/New Password</label>
+                    <input id="exampleInputPassword" class="form-control my-control" type="password" required>
+                </div>
+                <div class="form-check">
+                    <input id="exampleCheckbox" class="form-check-input" type="checkbox" required>
+                    <label for="exampleCheckbox">Tick the following</label>
+                </div>
+
+
+                <div>
+                    <label for="exampleFormControlSelect1">Select one of the following options:</label>
+                    <select class="form-control" name="Web" id="exampleFormControlSelect1">
+                        <option value="Chrome" selected>Chrome</option>
+                        <option value="Firefox" selected>Firefox</option>
+                        <option value="Opera" selected>Opera</option>
+                    </select>
+
+                    <div class="gender">
+                        <label for="">Whats your gender</label>
+                        Female
+                        <input type="radio" name="gender" value="Female">
+                        Male
+                        <input type="radio" name="gender" value="Male">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Send us a message if having truble with
+                            anything:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <input type="Submit" value="Yes" class="Submit btn btn-success">
+                    <button type="submit" class="btn btn-warning">Send</button>
+            </form>
         </section>
         
-    </main>
-
     <footer class="footer">
         <div class="box-footer">
-            <a href="www.facebook.com"></a>
-            <i class="fa fa-futbol-o" aria-hidden="true"></i>
-            <i class="fa fa-facebook-official" aria-hidden="true"></i>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <a href="fa fa-futbol-o">
+                <i class="fa fa-futbol-o" aria-hidden="true"></i>
+            </a>
+            <a href="www.facebook.com">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            </a>
+            <a href="www.facebook.com">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
 
         </div>
     </footer>

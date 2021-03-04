@@ -6,30 +6,6 @@
           box-sizing: border-box;
 }
 
-h1 {
-  font-weight: 600;
-  color: dodgerblue;
-  font-size: 45px;
-  font-family: 'Langar', cursive;
-}
-
-h3 {
-  background-color: orange;
-  font-style: italic;
-  font-weight: 900;
-  color: 0;
-  font-family: cursive;
-  font-size: 18px;
-  border-style: double;
-  border-color: red;
-  border-radius: 80px;
-}
-
-.klasa1 {
-  font-size: 72px;
-}
-
-/* MOJE */
 .header {
   background: #d2ff52;
   background: -webkit-gradient(left top, right top, color-stop(0%, #d2ff52), color-stop(48%, #66ba17), color-stop(100%, #91e842));
@@ -67,21 +43,21 @@ h3 {
   border: 1px solid black;
 }
 
-.header a.menu-item:hover {
+.header nav a.menu-item:hover {
   background-color: yellow;
   color: black;
   -webkit-transition: 3s;
   transition: 3s;
 }
 
-.header a {
-  font-family: 'Oswald', sans-serif;
+.header nav a {
+  font-family: "Oswald", sans-serif;
   text-decoration: none;
   color: black;
   font-weight: 600;
 }
 
-.header ul.menu {
+.header nav ul.menu {
   list-style: none;
   background-color: white;
   position: absolute;
@@ -92,7 +68,7 @@ h3 {
   display: none;
 }
 
-.header ul.menu li {
+.header nav ul.menu li {
   width: 297px;
   padding: 10px;
   text-align: center;
@@ -100,31 +76,65 @@ h3 {
   transition: 3s;
 }
 
-.header ul.menu li a {
+.header nav ul.menu li a {
   border: 0;
   border-radius: 0;
   display: block;
   width: 100%;
 }
 
-.header ul.menu li:hover {
+.header nav ul.menu li:hover {
   background-color: yellow;
   -webkit-transition: 3s;
   transition: 3s;
 }
 
-p {
-  font-family: 'Langar', cursive;
-  color: yellow;
+.slider #myId .carousel-inner img {
+  height: calc(100vh - 100px);
 }
 
-h2 {
-  font-style: arial;
+.slider #myId .carousel-inner h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.slider #myId .circle {
+  width: 60px;
+  height: 50px;
+  border-radius: 50%;
+  background: red;
+  text-indent: 0;
+}
+
+.slider #myId .circle:hover {
+  background: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.slider #myId .circle i {
+  width: 60px;
+  height: 50px;
+  font-size: 50px;
+  color: white;
+}
+
+.slider #myId .circle i:hover {
   color: red;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.slider #myId .circle i::before {
+  width: 100%;
+  height: 50px;
+  display: block;
+  text-align: center;
 }
 
 .main {
-  background-image: url("../image/grass.jpg.jpg");
+  background-image: url("../image/grasss.jpg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -135,7 +145,6 @@ h2 {
   width: 80%;
   margin: 0 auto 0 auto;
   padding: 2%;
-  height: 600px;
 }
 
 .main .row1 .box-article {
@@ -180,11 +189,21 @@ h2 {
 
 .main .row1 .box-article .description {
   padding: 15px;
+  min-height: 430px;
+  font-family: "Langar", cursive;
+  color: yellow;
 }
 
-.main .row1 h2 {
-  text-align: center;
-  padding: 15px;
+@media (min-width: 1200px) {
+  .main .row1 .box-article .description {
+    min-height: 330px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .main .row1 .box-article .description {
+    min-height: 200px;
+  }
 }
 
 .footer {
@@ -201,9 +220,14 @@ h2 {
   margin: 0 auto;
 }
 
+.footer .box-footer a {
+  width: 32%;
+  text-align: center;
+  display: inline-block;
+}
+
 .footer .box-footer i {
   font-size: 60px;
-  margin: 0 125px;
   color: white;
   -webkit-transition: 3s;
   transition: 3s;
@@ -230,5 +254,10 @@ h2 {
 
 #scroll i {
   display: block;
+}
+
+.footer {
+  background-color: blueviolet;
+  height: 100px;
 }
 /*# sourceMappingURL=main.css.map */
