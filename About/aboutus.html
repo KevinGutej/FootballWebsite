@@ -1,28 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="../style/main.css">
     <title>Document</title>
 </head>
-<body>
-<header class="header">
-        <nav>
-            <a href="Kante.html">Home Page</a>
-            <a href="Kante.html">Fun Information</a>
-            <a href="./About/aboutus.html">About us
-            </a>
-        </nav>
 
-</header>
- <main class="main aboutus">
-     <h3>I have been inspired by the football team Chealsea.
+<body>
+    <header class="header">
+        <nav>
+            <a class="menu-item" href="Kante.html">Home Page</a>
+            <a class="menu-item" href="Kante.html">Fun Information</a>
+            <a id="click" class="menu-item" href="">About us
+            </a>
+            <ul id="open-menu" class="menu">
+                <li class="item">
+                    <a href="https://www.underarmour.co.uk/en-gb/mens/sports/football/black/?cid=PS|UK|NB|bing|all|all|all|all|all|uk+dsa+men+women|all|1257841566457518&gclid=60d59e4e4af51d43f996c1a29ea9dc9b&gclsrc=3p.ds&msclkid=60d59e4e4af51d43f996c1a29ea9dc9b"
+                        target="_blank">Home Page</a>
+
+                </li>
+                <li class="item">
+                    <a href="https://www.footballwebpages.co.uk/" target="_blank">Fun Information</a>
+                </li>
+                <li class="item">
+                    <a href="./About/aboutus.html" target="_blank">About Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main aboutus">
+        <section class="row gallery">
+            <div class="col-8">
+                <div class="row box-top">
+                    <div class="col-6 box1">
+                        <img src="../image/messi.jpg" alt="">
+                    </div>
+                    <div class="col-6">
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="../image/neymar.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="../image/cr72.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 box-bottom">
+                        <img src="../image/cr7.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 colum-right">
+                <img src="../image/Top10.jpg" alt="">
+            </div>
+        </section>
+    </main>
+    <!-- <h3>I have been inspired by the football team Chealsea.
             I am here just to show you some fun information that you did not know
             and mabey that you will find intersting.Even if you are not a big fan of the same team I'm supporting
             there will also be some cool information around other teams.
-     </h3>
-     <section class="row1">
+     </h3> -->
+    <!-- <section class="row1">
          <h2>Where are here to mainly tell you some cool stuff that you didint know about soccer and my opinions on it</h2>
         <div class="box-article">
             <div class="box-image">
@@ -65,6 +119,22 @@
      </h3>
      <h3>Here's 1 fact that you might of not known :)
         The trophies that have been colected by Chealsea since 1997,this English football club had collected 17 major trophies.
-     </h3>
-    </body>
+     </h3> -->
+    <footer class="footer">
+        <div class="box-footer">
+            <a href="fa fa-futbol-o">
+                <i class="fa fa-futbol-o" aria-hidden="true"></i>
+            </a>
+            <a href="www.facebook.com">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            </a>
+            <a href="www.facebook.com">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+
+        </div>
+    </footer>
+    <script src="../script/script.js"></script>
+</body>
+
 </html>
