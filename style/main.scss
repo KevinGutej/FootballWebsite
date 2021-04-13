@@ -203,6 +203,31 @@
     }
   }
 }
+.zoom, .zoom2, .zoom3, .zoom4, .zoom5 {
+  .close {
+    i {
+      color: red;
+    }
+    margin-right:  -25px;
+  }
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 100;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  display: none;
+  padding: 50px 300px 50px 300px;
+  background-color: rgba(0,0,0,0.7);
+  
+}
+.main.aboutus {
+  height: calc(100vh - 100px);
+}
 .footer {
   background: rgba(210, 255, 82, 1);
   background: -moz-linear-gradient(
@@ -291,6 +316,7 @@
     img {
       width: 100%;
       max-width: 100%;
+      border: 2px solid black;
     }
   }
   div.box1 {
@@ -298,6 +324,7 @@
     img {
       height: 100%;
       object-fit: cover;
+      border: 2px solid black;
     }
   }
 }
@@ -315,9 +342,11 @@
   padding: 0;
 }
 .box-bottom {
+  height: 100%;
   img {
     width: 100%;
     max-width: 100%;
+    border: 2px solid black;
   }
 }
 .col-8 {
@@ -326,15 +355,35 @@
 .col-a {
   padding: 0;
 }
+.colum-left {
+  height: 100%;
+  .box-row {
+    height: 50%;
+    .box-col {
+      height: 100%;
+      .box-row-col {
+        height: 50%;
+      }
+    }
+    img {
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
+      border: 2px solid black;
+    }
+  }
+}
 .colum-right {
   min-height: 100%;
   //max-width: 100%;
   padding: 0;
+  height: 100%;
 
   img {
     width: 100%;
     max-width: 100%;
     object-fit: cover;
     height: 100%;
+    border: 2px solid black;
   }
 }
